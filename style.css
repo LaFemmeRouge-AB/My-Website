@@ -9,19 +9,35 @@ body {
 .Tabs {
     display: flex;
     position: relative;
-    left: 45%;
-    top: 15%;
+    left: 40%;
+    padding-top: 2%;
+    gap: 50px;
 }
 
 #about-me-button {
+    background-color: #262626;
     font-family: 'Sedgwick Ave Display', cursive;
-    font-size: 30px;
-    color: inherit;
+    font-size: 40px;
+    color: #ffffff;
     text-decoration: none;
     border: 2px solid #000;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #ffffff;
+}
+
+#projects-button {
+    background-color: #262626;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-color: #ffffff;
 }
