@@ -9,7 +9,7 @@ body {
 .Tabs {
     display: flex;
     position: relative;
-    left: 40%;
+    left: 32.5%;
     padding-top: 2%;
     gap: 50px;
 }
@@ -40,4 +40,26 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     border-color: #ffffff;
+}
+
+#home-button {
+    background-color: #262626;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #ffffff;
+}
+
+#home-button:hover, #about-me-button:hover, #projects-button:hover {
+    background-color: #ffffff;
+    color: #262626;
+    border-color: #262626;
+    border: 5px solid #262626;
+    cursor:crosshair;
 }
