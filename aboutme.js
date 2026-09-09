@@ -47,3 +47,28 @@ prescription.addEventListener('click', () => {
         prescription.classList.remove('Playing');
     }
 });
+
+const fable = document.getElementById('fable-vinyl');
+const fableAudio = document.getElementById('fable-audio');
+
+fable.addEventListener('click', () => {
+    if (fable.classList.contains("is-spinning")) {
+        const computedStyle = window.getComputedStyle(fable);
+        const currentTransform = computedStyle.transform;
+        fable.classList.remove("is-spinning");
+        fable.style.transform = currentTransform;
+    } else {
+        fable.style.transform = '';
+        fable.classList.add("is-spinning");
+    }
+});
+
+fable.addEventListener('click', () => {
+    if (fableAudio.paused) {
+        fableAudio.play();
+        fable.classList.add('Playing');
+    } else {
+        fableAudio.pause();
+        fable.classList.remove('Playing');
+    }
+});

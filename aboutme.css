@@ -117,10 +117,35 @@ body {
 #prescription-cover {
     position: absolute;
     top: 37%;
-    left: 80%;
-    width: 170px;
+    left: 80.5%;
+    width: 163px;
     height: 170px;
     background-image: url('prescription-cover.png');
+    background-size: cover;
+    z-index: 2;
+    filter: grayscale(100%);
+}
+
+#fable-vinyl {
+    position: absolute;
+    top: 58.25%;
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('fable-vinyl.png');
+    background-size: cover;
+    z-index: 1;
+    filter: grayscale(100%);
+}
+
+#fable-cover {
+    position: absolute;
+    top: 57%;
+    left: 80.5%;
+    width: 163px;
+    height: 170px;
+    background-image: url('fable-cover.png');
     background-size: cover;
     z-index: 2;
     filter: grayscale(100%);
