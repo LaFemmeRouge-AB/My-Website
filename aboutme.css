@@ -62,3 +62,39 @@ body {
     border-color: #262626;
     cursor:crosshair;
 }
+
+#bloodstream-vinyl {
+    position: absolute;
+    top: 17.5%;
+    left: 85%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('bloodstream-vinyl.png');
+    background-size: cover;
+    z-index: 1;
+}
+
+.is-spinning {
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#bloodstream-cover {
+    position: absolute;
+    top: 17.5%;
+    left: 80%;
+    width: 200px;
+    height: 200px;
+    background-image: url('bloodstream-cover.png');
+    background-size: cover;
+    z-index: 2;
+}
