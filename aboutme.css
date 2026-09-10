@@ -150,3 +150,68 @@ body {
     z-index: 2;
     filter: grayscale(100%);
 }
+
+#music-title {
+    position: absolute;
+    top: 8%;
+    left: 80%;
+    font-family: 'Chewy', cursive;
+    font-size: 40px;
+    color: #4f4f4f;
+    text-decoration: none;
+    border: 2px solid #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #444444;
+}
+
+#TLOU {
+    position: absolute;
+    top: 17.5%;
+    left: 10%;
+    width: 160px;
+    height: 180px;
+    background-image: url('TLOU2.png');
+    background-size: cover;
+    z-index: 1;
+}
+
+#Hawkeye {
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    width: 160px;
+    height: 180px;
+    background-image: url('hawkeye.png');
+    background-size: cover;
+    z-index: 1;
+}
+
+#PHM {
+    position: absolute;
+    top: 58%;
+    left: 10%;
+    width: 160px;
+    height: 180px;
+    background-image: url('ProjectHailMary.jpg');
+    background-size: cover;
+    z-index: 1;
+}
+
+#media-title{
+    position: absolute;
+    top: 7%;
+    left: 6%;
+    font-family: 'Chewy', cursive;
+    font-size: 40px;
+    color: #4f4f4f;
+    text-decoration: none;
+    border: 2px solid #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #444444;
+}
