@@ -72,3 +72,12 @@ fable.addEventListener('click', () => {
         fable.classList.remove('Playing');
     }
 });
+
+function viewfunction() {
+  var x = document.getElementById("beliefs");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

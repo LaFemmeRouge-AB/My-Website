@@ -171,7 +171,7 @@ body {
     filter: grayscale(100%);
     position: absolute;
     top: 17.5%;
-    left: 10%;
+    left: 8%;
     width: 160px;
     height: 180px;
     background-image: url('TLOU2.png');
@@ -183,7 +183,7 @@ body {
     filter: grayscale(100%);
     position: absolute;
     top: 38.3%;
-    left: 10%;
+    left: 8%;
     width: 160px;
     height: 180px;
     background-image: url('hawkeye.png');
@@ -195,7 +195,7 @@ body {
     filter: grayscale(100%);
     position: absolute;
     top: 59%;
-    left: 10%;
+    left: 8%;
     width: 160px;
     height: 180px;
     background-image: url('ProjectHailMary.jpg');
@@ -206,7 +206,7 @@ body {
 #media-title{
     position: absolute;
     top: 7%;
-    left: 6%;
+    left: 3.5%;
     font-family: 'Chewy', cursive;
     font-size: 40px;
     color: #4f4f4f;
@@ -217,4 +217,119 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     border-color: #444444;
+}
+
+#Big-Box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    height: 600px;
+    background-color: transparent;
+    border: 2px solid #4f4f4f;
+    transform: translate(-50%, -50%);
+}
+
+#allabtme {
+    position: absolute;
+    top: 17%;
+    left: 41.5%;
+    font-family: 'Chewy';
+    font-size: 35px;
+    color: #4f4f4f;
+    Justify-content: center;
+    border: 2px solid #4f4f4f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#Views-button {
+    background-color: #4f4f4f;
+    font-family: 'Chewy', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px 10px;
+    left: 27.8%;
+    top: 20%;
+    position: absolute;
+}
+
+#Views-button:hover {
+    background-color: #ffffff;
+    color: #4f4f4f;
+    border-color: #4f4f4f;
+    cursor: zoom-in;
+}
+
+#Hobbies-button {
+    background-color: #4f4f4f;
+    font-family: 'Chewy', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px 10px;
+    left: 58.5%;
+    top: 20%;
+    position: absolute;
+}
+
+#Hobbies-button:hover {
+    background-color: #ffffff;
+    color: #4f4f4f;
+    border-color: #4f4f4f;
+    cursor: zoom-in;
+}
+
+#Likes-button {
+    background-color: #4f4f4f;
+    font-family: 'Chewy', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px 10px;
+    left: 35%;
+    top: 20%;
+    position: absolute;
+}
+
+#Likes-button:hover {
+    background-color: #ffffff;
+    color: #4f4f4f;
+    border-color: #4f4f4f;
+    cursor: zoom-in;
+}
+
+#idk-button {
+    background-color: #4f4f4f;
+    font-family: 'Chewy', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px 10px;
+    left: 67%;
+    top: 20%;
+    position: absolute;
+}
+
+#idk-button:hover {
+    background-color: #ffffff;
+    color: #4f4f4f;
+    border-color: #4f4f4f;
+    cursor: zoom-in;
+}
+
+#beliefs {
+    position: absolute;
+    top: 30%;
+    left: 27.5%;
+    width: 45%;
+    height: 50%;
+    display: hidden;
 }
