@@ -168,6 +168,7 @@ body {
 }
 
 #TLOU {
+    filter: grayscale(100%);
     position: absolute;
     top: 17.5%;
     left: 10%;
@@ -179,8 +180,9 @@ body {
 }
 
 #Hawkeye {
+    filter: grayscale(100%);
     position: absolute;
-    top: 38%;
+    top: 38.3%;
     left: 10%;
     width: 160px;
     height: 180px;
@@ -190,8 +192,9 @@ body {
 }
 
 #PHM {
+    filter: grayscale(100%);
     position: absolute;
-    top: 58%;
+    top: 59%;
     left: 10%;
     width: 160px;
     height: 180px;
