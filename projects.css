@@ -62,3 +62,27 @@ body {
     border-color: #262626;
     cursor:crosshair;
 }
+
+#p {
+    height: 37%;
+    position: absolute;
+    left: 2%;
+    top: 17%;
+    border: 5px solid #4f4f4f;
+}
+
+#flipme {
+    height: 38%;
+    position: absolute;
+    left: 60%;
+    top: 16%;
+    border: 5px solid #4f4f4f;
+}
+
+#tired {
+    height: 38%;
+    position: absolute;
+    left: 30%;
+    top: 57%;
+    border: 5px solid #4f4f4f;
+}
