@@ -331,5 +331,181 @@ body {
     left: 27.5%;
     width: 45%;
     height: 50%;
-    display: hidden;
+    display: none;
+}
+
+#likes {
+    position: absolute;
+    top: 30%;
+    left: 27.5%;
+    width: 45%;
+    height: 50%;
+    display: none;
+}
+
+#hobbies {
+    position: absolute;
+    top: 30%;
+    left: 27.5%;
+    width: 45%;
+    height: 50%;
+    display: none;
+}
+
+#idk {
+    position: absolute;
+    top: 30%;
+    left: 27.5%;
+    width: 45%;
+    height: 50%;
+    display: none;
+}
+
+#AI {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+    height: 50%;
+    width: 28.8%;
+}
+
+#ice {
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    object-fit: cover;
+    height: 50%;
+}
+
+#rainbow {
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    object-fit: cover;
+    height: 50%;
+}
+
+#no-kings {
+    position: absolute;
+    top: 53%;
+    left: 0%;
+    object-fit: cover;
+    height: 50%;
+}
+
+#blm {
+    position: absolute;
+    top: 53%;
+    left: 35%;
+    object-fit: cover;
+    height: 50%;
+}
+
+#mh {
+    position: absolute;
+    top: 53%;
+    left: 70%;
+    object-fit: cover;
+    height: 50%;
+}
+
+#spidey {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+    height: 50%;
+}
+
+#batfam {
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    object-fit: cover;
+    height: 50%;
+}
+
+#green {
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    object-fit: cover;
+    height: 50%;
+}
+
+#sbg {
+    position: absolute;
+    top: 53%;
+    left: 0%;
+    object-fit: cover;
+    height: 50%;
+}
+
+#marauderers {
+    position: absolute;
+    top: 53%;
+    left: 35%;
+    object-fit: cover;
+    height: 50%;
+    width: 29%;
+}
+
+#stardew {
+    position: absolute;
+    top: 53%;
+    left: 70%;
+    object-fit: cover;
+    height: 50%;
+    width: 29%;
+}
+
+#skateboarding {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+    height: 50%;
+}
+
+#coding {
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    object-fit: cover;
+    height: 50%;
+    width: 29%;
+}
+
+#drums {
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    object-fit: cover;
+    height: 50%;
+    width: 29%;
+}
+
+#reads {
+    position: absolute;
+    top: 53%;
+    left: 0%;
+    object-fit: cover;
+    height: 50%;
+}
+
+#balls {
+    position: absolute;
+    top: 53%;
+    left: 35%;
+    object-fit: cover;
+    height: 50%;
+}
+
+#game {
+    position: absolute;
+    top: 53%;
+    left: 70%;
+    object-fit: cover;
+    height: 50%;
 }

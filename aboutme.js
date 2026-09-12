@@ -75,9 +75,37 @@ fable.addEventListener('click', () => {
 
 function viewfunction() {
   var x = document.getElementById("beliefs");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
+  if (x.style.display === "block") {
     x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
 }
+
+function hobbiesfunction() {
+  var x = document.getElementById("hobbies");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function idkfunction() {
+  var x = document.getElementById("idk");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function likesfunction() {
+  var x = document.getElementById("likes");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    idk.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+  }
