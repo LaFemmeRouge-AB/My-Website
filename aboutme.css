@@ -509,3 +509,15 @@ body {
     object-fit: cover;
     height: 50%;
 }
+
+#cat {
+    position: absolute;
+    height: 95%;
+    left: 3%;
+}
+
+#dog {
+    position: absolute;
+    left: 64%;
+    height: 95%;
+}
